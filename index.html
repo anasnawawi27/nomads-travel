@@ -83,39 +83,130 @@
     <!-- End of Header -->
 
     <!-- Statistic Bar -->
-    <div class="container statistic-bar">
-      <div class="row d-flex justify-content-center">
-        <div class="col-8 bg-light">
-          <div class="row d-flex align-items-center">
-            <div class="col-3 text-center mt-3">
-              <h6 class="statistic-title">20K</h6>
-              <p style="margin-top: -10px">Members</p>
-            </div>
-            <div class="col-3 text-center mt-3">
-              <h6 class="statistic-title">12</h6>
-              <p style="margin-top: -10px">Countries</p>
-            </div>
-            <div class="col-3 text-center mt-3">
-              <h6 class="statistic-title">3K</h6>
-              <p style="margin-top: -10px">Hotels</p>
-            </div>
-            <div class="col-3 text-center mt-3">
-              <h6 class="statistic-title">74</h6>
-              <p style="margin-top: -10px">Partners</p>
+    <main>
+      <div class="container statistic-bar">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-8 bg-light">
+            <div class="row d-flex align-items-center">
+              <div class="col-3 text-center mt-3">
+                <h6 class="statistic-title">20K</h6>
+                <p>Members</p>
+              </div>
+              <div class="col-3 text-center mt-3">
+                <h6 class="statistic-title">12</h6>
+                <p>Countries</p>
+              </div>
+              <div class="col-3 text-center mt-3">
+                <h6 class="statistic-title">3K</h6>
+                <p>Hotels</p>
+              </div>
+              <div class="col-3 text-center mt-3">
+                <h6 class="statistic-title">74</h6>
+                <p>Partners</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
     <!-- End of Statistic Bar -->
+
+    <!-- Popular Trip  -->
+    <!-- <section class="popular-trip">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h3>Wisata Popular</h3>
+            <p>
+              You will see beautiful <br />
+              moment you never see before
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <figure class="figure">
+              <img
+                src="frontend/images/bali.png"
+                class="figure-img img-fluid"
+              />
+              <div class="overlay text-center pt-4">
+                <p>INDONESIA</p>
+                <p class="place" style="margin-top: -15px">UBUD, BALI</p>
+                <button class="btn">View Details</button>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="popular-trip">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center mb-5">
+            <h3>Wisata Popular</h3>
+            <p>
+              You will see beautiful <br />
+              moment you never see before
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6 mb-3 col-3 col-md-3 col-lg-0 col-md-4 col-lg-3">
+            <div
+              class="card d-flex flex-column text-center pt-4"
+              style="background-image: url('frontend/images/popular-1.png')"
+            >
+              <div class="popular-country">INDONESIA</div>
+              <div class="popular-location">UBUD, BALI</div>
+              <div class="btn-popular-trip mt-auto mb-4">
+                <button class="btn px-5">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 mb-4 mb-md-4 col-md-4 mb-lg-0 col-md-4 col-lg-3">
+            <div
+              class="card d-flex flex-column text-center pt-4"
+              style="background-image: url('frontend/images/popular-2.png')"
+            >
+              <div class="popular-country">INDONESIA</div>
+              <div class="popular-location">BROMO, EAST JAVA</div>
+              <div class="btn-popular-trip mt-auto mb-4">
+                <button class="btn px-5">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 mb-4 mb-md-4 col-md-4 mb-lg-0 col-md-4 col-lg-3">
+            <div
+              class="card d-flex flex-column text-center pt-4"
+              style="background-image: url('frontend/images/popular-3.png')"
+            >
+              <div class="popular-country">INDONESIA</div>
+              <div class="popular-location">NUSA PENIDA, BALI</div>
+              <div class="btn-popular-trip mt-auto mb-4">
+                <button class="btn px-5">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 mb-4 mb-md-4 col-md-4 mb-lg-0 col-md-4 col-lg-3">
+            <div
+              class="card d-flex flex-column text-center pt-4"
+              style="background-image: url('frontend/images/popular-4.png')"
+            >
+              <div class="popular-country">INDONESIA</div>
+              <div class="popular-location">KARIMUN, JEPARA</div>
+              <div class="btn-popular-trip mt-auto mb-4">
+                <button class="btn px-5">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Popular Trip -->
 
     <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="frontend/script/main.js"></script>
-    <script>
-      $(".btn").on("click", function () {
-        alert("hallo World");
-      });
-    </script>
   </body>
 </html>

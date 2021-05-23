@@ -59,7 +59,7 @@ header {
 }
 
 header h1 {
-  font-family: "Asisstant";
+  font-family: "Playfair Display";
   font-weight: bold;
   font-size: 50px;
 }
@@ -71,7 +71,8 @@ header p {
 header .btn-get-started {
   background-color: #FFA043;
   color: #ffffff;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 25px;
   width: 170px;
 }
 
@@ -89,5 +90,43 @@ header .btn-get-started:hover {
 .statistic-title {
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.popular-trip {
+  height: 504px;
+  background-color: #051845;
+  margin-top: -100px;
+  color: #ffffff;
+  padding-top: 130px;
+}
+
+.popular-trip h3 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.popular-trip .card {
+  background-color: #000000;
+  min-height: 376px;
+  background-size: cover;
+  border: 0;
+  border-radius: 0;
+}
+
+.btn-popular-trip button {
+  background-color: #FFA043;
+  color: white;
+}
+
+.btn-popular-trip button:hover {
+  background-color: #fd860e;
+  color: white;
+}
+
+.popular-location {
+  font-size: 20px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=main.css.map */
