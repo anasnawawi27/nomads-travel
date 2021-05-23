@@ -1,6 +1,6 @@
 body {
   font-family: "Assistant";
-  background-color: #EAEAEA;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -11,6 +11,7 @@ body {
 
 .navbar {
   max-height: 60px;
+  background-color: #ffffff !important;
 }
 
 .navbar-light {
@@ -88,7 +89,7 @@ header .btn-get-started:hover {
 }
 
 .statistic-title {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 0px;
 }
@@ -105,6 +106,12 @@ header .btn-get-started:hover {
   font-family: "Playfair Display";
   font-size: 40px;
   font-weight: bold;
+  color: #ffffff;
+}
+
+.popular-trip p {
+  font-size: 18px;
+  color: #ffffff;
 }
 
 .popular-trip .card {
@@ -128,5 +135,99 @@ header .btn-get-started:hover {
 .popular-location {
   font-size: 20px;
   font-weight: 600;
+}
+
+.network {
+  margin-top: 250px;
+}
+
+.network h3 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+  color: #051845;
+}
+
+.network p {
+  font-size: 18px;
+  color: #051845;
+}
+
+.testimonials {
+  padding-top: 70px;
+  height: 550px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F5F5F5));
+  background-image: linear-gradient(180deg, #ffffff 0%, #F5F5F5 100%);
+}
+
+.testimonials h3 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+  color: #051845;
+}
+
+.testimonials p {
+  font-size: 18px;
+  color: #051845;
+}
+
+.testimonials .card {
+  border-radius: 11px;
+  height: 480px;
+}
+
+.testimonials .card .card-body {
+  padding: 40px;
+}
+
+.testimonials .card .card-body p {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #5C5F65;
+}
+
+.testimonials .card .card-footer {
+  background-color: transparent;
+  font-size: 18px;
+  color: #7D7D7D;
+  font-weight: 600;
+}
+
+.profile-name {
+  color: #051845;
+  font-size: 23px;
+  font-weight: 700px;
+}
+
+.btn-started-testimonial {
+  background-color: #FFA043;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 170px;
+}
+
+.btn-started-testimonial:hover {
+  background-color: #df760e;
+  color: #ffffff;
+}
+
+.btn-need-testimonial {
+  background-color: #E9E9E9;
+  color: #989898;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 170px;
+}
+
+.btn-need-testimonial:hover {
+  background-color: #cccccc;
+  color: #989898;
+}
+
+.section-footer {
+  margin-top: 300px;
 }
 /*# sourceMappingURL=main.css.map */

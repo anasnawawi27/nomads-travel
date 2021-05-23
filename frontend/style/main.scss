@@ -1,8 +1,39 @@
 $main-font: "Assistant";
 
+@mixin title($color){
+    h3{
+        font-family: "Playfair Display";
+        font-size: 40px;
+        font-weight: bold;
+        color:$color;
+    }
+    p{
+        font-size: 18px;
+        color:$color;
+    }
+}
+
+@mixin button-primary($color){
+    background-color: $color ;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 170px;
+
+}
+
+@mixin button-secondary($color){
+    background-color: $color ;
+    color: #989898;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 170px;
+
+}
+
 body{
     font-family: $main-font;
-    background-color: #EAEAEA;
+    background-color: #ffffff;
     margin:0;
     padding:0;
 }
@@ -15,6 +46,7 @@ body{
 
 .navbar{
     max-height: 60px;
+    background-color: #ffffff!important;
 }
 
 .navbar-light{
@@ -74,11 +106,7 @@ header{
     }
 
     .btn-get-started{
-        background-color: #FFA043;
-        color: #ffffff;
-        margin-top: 20px;
-        margin-bottom: 25px;
-        width: 170px;
+        @include button-primary(#FFA043);
 
         &:hover{
             background-color: #df760e;
@@ -94,7 +122,7 @@ header{
 }
 
 .statistic-title{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 0px;
 }
@@ -105,11 +133,7 @@ header{
     margin-top: -100px;
     color:#ffffff;
     padding-top: 130px;
-    h3{
-        font-family: "Playfair Display";
-        font-size: 40px;
-        font-weight: bold;
-    }
+    @include title(#ffffff);
 
     .card{
         background-color: #000000;
@@ -137,4 +161,65 @@ header{
     font-size:20px;
     font-weight:600;
 }
+
+.network{
+    margin-top: 250px;
+    @include title( #051845)
+}
+
+.testimonials{
+    @include title(#051845);
+    padding-top: 70px;
+    height: 550px;
+    background-image: linear-gradient(180deg,#ffffff 0%, #F5F5F5 100%);
+    .card{
+        border-radius: 11px;
+        height: 480px;
+        .card-body{
+            padding:40px;
+            p{
+                line-height: 28px;
+                font-size:18px;
+                font-weight: 300;
+                color: #5C5F65;
+            }
+        }
+    
+        .card-footer{
+            background-color: transparent;
+            font-size: 18px;
+            color: #7D7D7D;
+            font-weight: 600;
+        }
+    }
+}
+
+.profile-name{
+    color: #051845;
+    font-size:23px;
+    font-weight:700px
+}
+
+.btn-started-testimonial{
+    @include button-primary(#FFA043);
+
+    &:hover{
+        background-color: #df760e;
+        color: #ffffff;  
+    }
+}
+
+.btn-need-testimonial{
+    @include button-secondary(#E9E9E9);
+    &:hover{
+        background-color: #cccccc;
+        color: #989898;  
+    }
+
+}
+
+.section-footer{
+    margin-top: 300px;
+}
+
 
