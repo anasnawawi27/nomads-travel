@@ -1,6 +1,8 @@
 body {
   font-family: "Assistant";
   background-color: #EAEAEA;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-brand img {
@@ -19,7 +21,7 @@ body {
   background-color: #041E5B;
   color: #ffffff;
   margin-top: -10px !important;
-  margin-bottom: -8px !important;
+  margin-bottom: -10px !important;
   margin-right: -18px !important;
   height: 60px;
   border-radius: 0;
@@ -36,5 +38,45 @@ body {
     margin-top: 50px;
     height: 40px;
   }
+  .navbar {
+    margin: 0;
+  }
+  .container-fluid .navbar {
+    margin: 0;
+  }
+  .navbar .navbar-collapse {
+    background-color: #ffffff;
+    padding: 30px;
+  }
+}
+
+header {
+  color: #fff;
+  background-image: url(../images/header.png);
+  background-size: cover;
+  padding: 150px 0 84px;
+  margin-top: -70px;
+}
+
+header h1 {
+  font-family: "Asisstant";
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FFA043;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 170px;
+}
+
+header .btn-get-started:hover {
+  background-color: #df760e;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
