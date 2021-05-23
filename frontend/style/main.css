@@ -79,4 +79,15 @@ header .btn-get-started:hover {
   background-color: #df760e;
   color: #ffffff;
 }
+
+.statistic-bar {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  color: #041E5B;
+}
+
+.statistic-title {
+  font-size: 25px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
