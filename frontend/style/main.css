@@ -49,6 +49,9 @@ body {
     background-color: #ffffff;
     padding: 30px;
   }
+  .popular-trip {
+    margin-bottom: 650px;
+  }
 }
 
 header {
@@ -155,7 +158,7 @@ header .btn-get-started:hover {
 
 .testimonials {
   padding-top: 70px;
-  height: 550px;
+  max-height: 550px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F5F5F5));
   background-image: linear-gradient(180deg, #ffffff 0%, #F5F5F5 100%);
 }

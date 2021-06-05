@@ -86,6 +86,10 @@ body{
         }
     }
 
+    .popular-trip{
+        margin-bottom: 650px;
+    }
+
 }
 
 
@@ -145,6 +149,7 @@ header{
   
 }
 
+
 .btn-popular-trip{
     button{
         background-color: #FFA043;
@@ -170,7 +175,7 @@ header{
 .testimonials{
     @include title(#051845);
     padding-top: 70px;
-    height: 550px;
+    max-height: 550px;
     background-image: linear-gradient(180deg,#ffffff 0%, #F5F5F5 100%);
     .card{
         border-radius: 11px;
