@@ -227,4 +227,119 @@ header{
     margin-top: 300px;
 }
 
+.bg-header{
+    height: 310px;
+    background-color: #EAEAEA;
+    margin-top: -70px;
+    margin-bottom: 800px;
+}
+
+.content{
+    min-height: 100vh;
+}
+
+.breadcrumb {
+    margin-top: 100px;
+    padding: 0;
+
+    &-item.active{
+            font-weight: bold;
+            color: #041E5B;
+    }
+
+    &-item a{
+       color: #041E5B;
+    }
+
+}
+
+.card-detail{
+    padding: 30px;
+    border-radius: 11px;
+}
+
+.img-features{
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+.description{
+    padding: 0;
+    float: left;
+    h5{
+        padding: 0;
+        margin:0;
+    }
+}
+
+.about{
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+        color:#8E8F8F
+    }
+}
+
+.xzoom-gallery{
+    width: 126px;
+}
+
+.xactive{
+    box-shadow: none;
+}
+
+.xzoom-container{
+    display: block;
+    .xzoom{
+        box-shadow: none;
+
+    }
+    
+}
+
+.xzoom-thumbs{
+    a{
+        text-decoration: none;
+    }
+    .xactive{
+        box-shadow: none;
+        border: 2px solid #08BCBC;
+    }
+}
+
+.join{
+ 
+    .btn-join-trip{
+        background-color: #FFA043;
+        color: white;
+        border-radius: 0;
+        &:hover{
+            background-color: #ee8924;
+        }
+    }
+}
+
+.card-member{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+
+.image-member{
+    width: 45px;
+}
+
+.more{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #022880;
+    background-color: #ECF8FF;
+}
+
+
+
 

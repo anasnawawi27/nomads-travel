@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nomads</title>
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/style/main.css" />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container mx-0 px-0 mx-lg-auto">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/images/logo_nomads.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto mr-3 mb-3 mb-sm-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Paket Traveling</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+          </ul>
+          <button class="btn btn-login">Masuk</button>
+        </div>
+      </nav>
+    </div>
+    <!-- End of Navbar -->
+
+    <!-- Main page -->
+    <section class="bg-header">
+      <section class="content">
+        <div class="container">
+          <div class="row pl-lg-0">
+            <div class="col">
+              <nav>
+                <ol class="breadcrumb bg-transparent">
+                  <li class="breadcrumb-item">
+                    <a href="#"> Paket Travel</a>
+                  </li>
+                  <li class="breadcrumb-item active">Details</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <div class="card card-detail">
+                <h1>Ubud, Bali</h1>
+                <p>Republic of Indonesia</p>
+
+                <div class="detail-image text-center">
+                  <div class="xzoom-container mb-2">
+                    <img
+                      src="frontend/images/image-1.png"
+                      class="xzoom"
+                      id="xzoom-default"
+                      xoriginal="frontend/images/image-1.png"
+                    />
+                  </div>
+                  <div class="xzoom-thumbs px-0">
+                    <a href="frontend/images/image-1.png">
+                      <img
+                        src="frontend/images/thumbs-1.png"
+                        class="xzoom-gallery"
+                        xpreview="frontend/images/image-1.png"
+                      />
+                    </a>
+                    <a href="frontend/images/image-2.png">
+                      <img
+                        src="frontend/images/thumbs-2.png"
+                        class="xzoom-gallery"
+                        xpreview="frontend/images/image-2.png"
+                      />
+                    </a>
+                    <a href="frontend/images/image-3.png">
+                      <img
+                        src="frontend/images/thumbs-3.png"
+                        class="xzoom-gallery"
+                        xpreview="frontend/images/image-3.png"
+                      />
+                    </a>
+                    <a href="frontend/images/image-4.png">
+                      <img
+                        src="frontend/images/thumbs-4.png"
+                        class="xzoom-gallery"
+                        xpreview="frontend/images/image-4.png"
+                      />
+                    </a>
+                    <a href="frontend/images/image-5.png">
+                      <img
+                        src="frontend/images/thumbs-5.png"
+                        class="xzoom-gallery"
+                        xpreview="frontend/images/image-5.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="about">
+                  <h3>Tentang Wisata</h3>
+                  <p>
+                    Ubud is a town on the Indonesian island of Bali in Ubud
+                    District, located amongst rice paddies and steep ravines in
+                    the central foothills of the Gianyar regency. Promoted as an
+                    arts and culture centre, it has developed a large tourism
+                    industry.
+                  </p>
+
+                  <p>
+                    The area surrounding the town is made up of small farms,
+                    rice paddies, agroforestry plantations, and tourist
+                    accommodations. As of 2018, more tourists visited Ubud than
+                    Denpasar in southern Bali.
+                  </p>
+                </div>
+                <div class="features row mt-4">
+                  <div class="col pt-3">
+                    <img
+                      src="frontend/images/ic_event.png"
+                      class="img-features"
+                    />
+                    <div class="description ml-3 mb-0">
+                      <h5>Featured Event</h5>
+                      <p>Tari Kecak</p>
+                    </div>
+                  </div>
+                  <div class="col border-left pt-3">
+                    <img
+                      src="frontend/images/ic_language.png"
+                      class="img-features"
+                    />
+                    <div class="description ml-3">
+                      <h5>Language</h5>
+                      <p>Bahasa Indonesia</p>
+                    </div>
+                  </div>
+                  <div class="col border-left pb-0 pt-3">
+                    <img
+                      src="frontend/images/ic_foods.png"
+                      class="img-features"
+                    />
+                    <div class="description ml-3 mb-0 pb-0">
+                      <h5>Foods</h5>
+                      <p>Local Foods</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card card-detail card-member">
+                <h4>Members are going</h4>
+                <div class="members">
+                  <img
+                    src="frontend/images/member-1.png"
+                    class="mr-1 image-member"
+                  />
+                  <img
+                    src="frontend/images/member-2.png"
+                    class="mr-1 image-member"
+                  />
+                  <img
+                    src="frontend/images/member-3.png"
+                    class="mr-1 image-member"
+                  />
+                  <img
+                    src="frontend/images/member-4.png"
+                    class="mr-1 image-member"
+                  />
+                  <div class="more d-inline-block text-center rounded-circle">
+                    10+
+                  </div>
+                </div>
+                <hr />
+                <h4>Informations</h4>
+                <table class="trip-information">
+                  <tr>
+                    <td width="50%">Date of Departure</td>
+                    <td width="50%" class="text-right text-muted">
+                      22 Aug, 2021
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="50%">Duration</td>
+                    <td width="50%" class="text-right text-muted">4D 3N</td>
+                  </tr>
+                  <tr>
+                    <td width="50%">Type of Trip</td>
+                    <td width="50%" class="text-right text-muted">
+                      Open Public
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="50%">Price</td>
+                    <td width="50%" class="text-right text-muted">
+                      $ 80,00/person
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="join">
+                <a href="" class="btn btn-block btn-join-trip py-2"
+                  >Join Trip</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- End of main page -->
+
+    <footer class="section-footer border-top pt-4">
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col">
+            <h5>FEATURES</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Social Media Kit</a></li>
+              <li><a href="#">Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>ACCOUNT</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Refund</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Award</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>COMPANY</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Help Centre</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>GET CONNECTED</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Jakarta Selatan</a></li>
+              <li><a href="#">Indonesia</a></li>
+              <li><a href="#">0821 - 222 - 1123</a></li>
+              <li><a href="#">support@nomads.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-muted pb-3">
+            &copy; 2019 Copyright Nomads • All rights reserved • Made in Jakarta
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/script/main.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+      });
+    </script>
+  </body>
+</html>
