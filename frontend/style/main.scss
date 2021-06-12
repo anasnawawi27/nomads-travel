@@ -401,8 +401,35 @@ ul.list-unstyled{
         float: left;
         margin-right: 20px;
     }
+}
 
+.section-success{
 
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+    h3{
+        color:#041E5B;
+        font-size: 25px;
+    }
+
+    p{
+        font-size:18px;
+        font-weight: 300;
+        color: #7A7F8B;
+    }
+
+    .btn-back-home{
+        background-color: #041E5B;
+        color: #fff;
+
+        &:hover{
+            background-color: #0a3086;
+            color: #fff;
+        }
+    }
 }
 
 

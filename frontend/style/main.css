@@ -391,4 +391,30 @@ ul.list-unstyled li a {
   float: left;
   margin-right: 20px;
 }
+
+.section-success img {
+  width: 200px;
+  height: 200px;
+}
+
+.section-success h3 {
+  color: #041E5B;
+  font-size: 25px;
+}
+
+.section-success p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #7A7F8B;
+}
+
+.section-success .btn-back-home {
+  background-color: #041E5B;
+  color: #fff;
+}
+
+.section-success .btn-back-home:hover {
+  background-color: #0a3086;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
