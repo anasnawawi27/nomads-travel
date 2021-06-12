@@ -225,10 +225,12 @@ header{
 
 .section-footer{
     margin-top: 300px;
+    // max-height: 120px;
 }
 
 .bg-header{
-    height: 310px;
+    // height: 310px;
+    max-height: 310px;
     background-color: #EAEAEA;
     margin-top: -70px;
     margin-bottom: 800px;
@@ -256,6 +258,7 @@ header{
 .card-detail{
     padding: 30px;
     border-radius: 11px;
+    color:#041E5B;
 }
 
 .img-features{
@@ -338,6 +341,68 @@ header{
     line-height: 45px;
     color: #022880;
     background-color: #ECF8FF;
+}
+
+.description{
+    p{
+        color: #8E8F8F;
+    }
+}
+
+ul.list-unstyled{
+    li{
+        a{
+            color:#041E5B
+        }
+    }
+}
+
+.btn-add-now{
+    background-color: #041E5B;
+    color: #fff;
+
+    &:hover{
+        background-color: #053094;
+        color: #fff;
+    }
+}
+
+.disclaimer{
+    font-size: 16px;
+    color: #7A7F8B;
+    font-weight: 300;
+}
+
+.gj-datepicker{
+    .datepicker{
+        border-right:0;
+    }
+
+    .input-append{
+        .btn{
+            padding-right: 30px;
+        }
+    }
+}
+
+.bank{
+    .bank-item{
+        h4{
+            margin-bottom: 0;
+            font-size: 18px;
+        }
+        .instruction{
+            overflow:hidden;
+        }
+    }
+
+
+    .bank-icon{
+        float: left;
+        margin-right: 20px;
+    }
+
+
 }
 
 
