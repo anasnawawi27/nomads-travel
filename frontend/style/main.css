@@ -132,12 +132,12 @@ header .btn-get-started:hover {
   border-radius: 0;
 }
 
-.btn-popular-trip button {
+.btn-popular-trip a {
   background-color: #FFA043;
   color: white;
 }
 
-.btn-popular-trip button:hover {
+.btn-popular-trip a:hover {
   background-color: #fd860e;
   color: white;
 }
