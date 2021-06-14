@@ -35,6 +35,9 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  .testimonials .card {
+    height: 50px;
+  }
   .btn-login {
     margin-top: 50px;
     height: 40px;
@@ -48,9 +51,6 @@ body {
   .navbar .navbar-collapse {
     background-color: #ffffff;
     padding: 30px;
-  }
-  .popular-trip {
-    margin-bottom: 650px;
   }
 }
 
@@ -98,11 +98,7 @@ header .btn-get-started:hover {
 }
 
 .popular-trip {
-  height: 504px;
-  background-color: #051845;
-  margin-top: -100px;
   color: #ffffff;
-  padding-top: 130px;
 }
 
 .popular-trip h3 {
@@ -115,6 +111,17 @@ header .btn-get-started:hover {
 .popular-trip p {
   font-size: 18px;
   color: #ffffff;
+}
+
+.popular-trip .content-popular-trip {
+  margin-top: -350px;
+}
+
+.popular-trip .bg-popular-trip {
+  padding-top: 130px;
+  height: 504px;
+  background-color: #051845;
+  margin-top: -100px;
 }
 
 .popular-trip .card {
@@ -141,7 +148,7 @@ header .btn-get-started:hover {
 }
 
 .network {
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 .network h3 {
@@ -156,13 +163,6 @@ header .btn-get-started:hover {
   color: #051845;
 }
 
-.testimonials {
-  padding-top: 70px;
-  max-height: 550px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F5F5F5));
-  background-image: linear-gradient(180deg, #ffffff 0%, #F5F5F5 100%);
-}
-
 .testimonials h3 {
   font-family: "Playfair Display";
   font-size: 40px;
@@ -175,9 +175,19 @@ header .btn-get-started:hover {
   color: #051845;
 }
 
+.testimonials .bg-testimonials {
+  height: 550px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#F5F5F5));
+  background-image: linear-gradient(180deg, #ffffff 0%, #F5F5F5 100%);
+}
+
+.testimonials .testimonials-content {
+  margin-top: -480px;
+}
+
 .testimonials .card {
   border-radius: 11px;
-  height: 480px;
+  height: 400px;
 }
 
 .testimonials .card .card-body {
@@ -231,7 +241,7 @@ header .btn-get-started:hover {
 }
 
 .section-footer {
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 .bg-header {
