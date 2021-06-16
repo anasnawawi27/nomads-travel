@@ -5,3 +5,5 @@
 
 Berikut Preview dari halaman Home Nomads :
 
+![Home](https://user-images.githubusercontent.com/48211959/122149845-ed78f980-ce86-11eb-95bd-0beb93e6aae5.png)
+
