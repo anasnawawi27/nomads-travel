@@ -245,8 +245,18 @@ header{
     // height: 310px;
     max-height: 310px;
     background-color: #EAEAEA;
-    margin-top: -70px;
     margin-bottom: 800px;
+}
+
+.bg-header-details{
+        min-height: 310px;
+        background-color:#eaeaea;
+        margin-top: -70px;
+    
+}
+
+.content-details{
+    margin-top: -300px;
 }
 
 .content{
