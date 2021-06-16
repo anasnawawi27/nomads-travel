@@ -255,7 +255,14 @@ header{
     
 }
 
-.content-details{
+.bg-header-checkout{
+    min-height: 310px;
+    background-color:#eaeaea;
+    margin-top: -70px;
+
+}
+
+.content-details, .content-checkout{
     margin-top: -300px;
 }
 
